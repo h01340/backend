@@ -26,19 +26,5 @@ public class WebSecurityConfig  {
 		return http.build();
 	}
 
-	/*
-	 * protected void configure(AuthenticationManagerBuilder auth) throws Exception
-	 * { auth.inMemoryAuthentication() .passwordEncoder(passwordEncoder())
-	 * .withUser("user") .password(passwordEncoder().encode("userPass"))
-	 * .roles("USER");
-	 * 
-	 * auth.inMemoryAuthentication() .passwordEncoder(passwordEncoder())
-	 * .withUser("admin") .password(passwordEncoder().encode("adminPass"))
-	 * .roles("USER", "ADMIN"); }
-	 * 
-	 * @Bean public PasswordEncoder passwordEncoder() { return new
-	 * BCryptPasswordEncoder(); }
-	 */
-  
-  
+	
 }
